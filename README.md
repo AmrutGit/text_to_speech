@@ -1,15 +1,14 @@
-# Text-to-Speech Converter
+# ML-Based Text-to-Speech Converter
 
 ## Overview
-This project converts text input into speech using Python's `pyttsx3` library. Users can customize the speech rate and choose between male and female voices.
+This project converts text into realistic speech using a pre-trained machine learning model from the `TTS` library. The user selects a model and voice to synthesize the speech.
 
 ## Prerequisites
-- Python 3.x installed
-- Compatible text-to-speech engine on your system
+- Python 3.8 or higher
+- Internet connection (to download pre-trained models)
 
 ## Setup
-1. Clone this repository or download the project files.
-2. Navigate to the project directory.
-3. Install dependencies:
+1. Clone the repository or download the files.
+2. Navigate to the project directory:
    ```bash
-   pip install -r requirements.txt
+   cd ml_text_to_speech_project
